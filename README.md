@@ -3,16 +3,14 @@ This is a new approach for topic modeling. Topics have been extracted from 600,0
 
 Please download the notebook (analysis.ipynb) in this repository to follow along.
 
-https://user-images.githubusercontent.com/83890387/226975502-f04060a0-c1bc-4b74-a7d3-34336ff05678.jpg
-
 ## Methodology
 
 Before diving into the extraction of topics in this massive dataset, let’s explore the methodology that was used to accomplish this goal. There is no obvious or straightforward method to approach this problem. In fact, topic modeling is a very large field of study within the natural language processing community. To exemplify this, let’s say that a simple TF-IDF algorithm is applied to the entire corpus (i.e., all the abstracts). This might seem like a good place to start, after all, TF-IDF algorithms are very good at capturing the importance that words have relative to their own containing bodies of text and all other bodies of text contained in the same dataset. However, in this case, it will certainly perform poorly. This is because the algorithm will favor those words/topics that are less frequent across a massive number of unrelated bodies of text (i.e., abstracts). Consequently, the algorithm will likely fail to model the topics. This phenomenon occurs because irrelevant topics contained in small numbers of abstracts are over-represented due to their rareness relative to the large number of unrelated abstracts that don’t contain them but rather contain other more common and relevant topics. To further exemplify this, one can refer to figure 1 where the articles’ categories have been illustrated. If a topic is extracted from an economics article (a low occurring category) and compared to the rest of the corpus, it will certainly return a high TF-IDF; however, if the opposite is done and a highly occurring category is selected such as computer science, the topics extracted from the articles in this category will return very low TF-IDF scores since the inverse document frequency is dramatically reduced by the fact that there will certainly be more articles interrelated and thus with similar topics. Therefore, the algorithm could erroneously discard relevant topics present in a large number of related articles. As a result, there is a high risk of producing highly irrelevant topics that can mislead and misrepresent the true underlying structure of the dataset’s topics. To mitigate these risks and produce a fair representation of this dataset’s topics, the methodology that has been developed and implemented consists of clustering related articles before extracting any information from them. This method enables the isolated analysis of the most relevant topics within each individual cluster or group of related abstracts using a bagging technique. Then, these internal topics’ relative importance to other clusters’ topics can be assessed to filter the most significant topics produced by each cluster by using a TF-IDF approach. There are some libraries for topic modeling that have similar approaches; however, in this case, a specific and unique implementation of the described methodology has been developed from scratch by integrating some well-known clustering, dimensionality reduction, and custom-coded algorithms. 
 
-https://github.com/ricardocolindres/Topic-Modeling-Arxiv-Dataset/blob/main/cluster_umap_kmeans_labels.png
-
 Loading the Data
 	The ArXiv dataset a is available in the JSON format and although the actual articles have been excluded, its size is over three (3) gigabytes. Due to the sheer amount of data present in this dataset, the loading and manipulation processes of the data are to be carefully considered, especially when using local computational resources (i.e., using a personal computer). Consequently, the data have been loaded using the Dask Framework, specifically, the Dask Bag class. Dask has optimized this class for parallel computing and proper management of multicore-capable CPUs and GPUs. Therefore, it yields much better results compared to simply loading the file using the standard JSON library. After having loaded the data successfully, the data will be filtered and processed before undergoing exploratory data analysis (EDA).
+	
+![Screenshot 2023-03-22 093436](https://user-images.githubusercontent.com/83890387/226978893-1be30db5-6180-468a-a6ff-2f7c7283c248.jpg)
 
 1.0.1 CODE SNIPPET
 ```
@@ -63,8 +61,12 @@ Moving on, to have a better understanding of the data, a basic exploratory data 
 2.- The articles’ categories have been analyzed to understand how they are distributed across the dataset. For example, it has been concluded that the category with the largest number of papers is “computer science” followed by “mathematics”. Although this report is not after understanding these categories or broader topics, These categories provide a powerful insight regarding the structure of the trending topics. Finally, the association among these categories has been studied and visualized utilizing a heatmap. This is not so relevant for clustering, dimensionality reduction, or natural language processing; however, it is certainly important for real-world applications such as implementing supervised learning algorithms to optimize the searching process across the database. For instance, the results reveal that computer science topics are highly associated with mathematics and statistics articles, which might suggest some expected high activity in fields such as data science and artificial intelligence. Although generating these supervised models is outside the scope of this article, it is worth mentioning that this data could be further expanded by analyzing the sub-categories of each article as well. 
 
 Figure 1 - Distribution of general topics across the ArXiv dataset. 
+
+![barplot](https://user-images.githubusercontent.com/83890387/226979137-d7f924ec-ed2d-4b80-9c59-c596609d9ceb.png)
  
 Figure 2 - Visual representation of the topics’ associations across the ArXiv dataset. Each number within a cell represents the number or articles containing the associated topics.  
+
+![heatmap](https://user-images.githubusercontent.com/83890387/226979204-37efc0c3-615c-4b45-928b-24ac4f8f95d9.png)
 
 ## Feature Engineering and Clustering
 
@@ -94,15 +96,23 @@ The results produced from the exhausting testing phase were the following: HDSCA
 
 Figure 3 - Visual comparison of the clustering produced by HDBSCAN and K-means. The colors represent clusters produced by embedding in 15 dimensions. 
 
+![cluster_umap_hdbscan_labels](https://user-images.githubusercontent.com/83890387/226979336-0544b75c-33e5-4184-a63c-83272b5245bf.png)
+
+![cluster_umap_kmeans_labels](https://user-images.githubusercontent.com/83890387/226979388-efda81c4-3ab6-42e5-854b-b68076580464.png)
+
 ## Topic Modeling
 
 In this final section, the trending topics are extracted. To do so, the clusters will first be analyzed in isolation from each other. As a result, the most relevant topics within each cluster should emerge from this process. To begin, it is necessary to pre-process all the abstracts. Although we had created an enhanced version of the abstract, the raw or original abstract will be used at this stage since the enhancements’ sole purpose was to enrich the context within each original abstract in order to produce better clusters. The pre-processing includes the removal of none alpha-numeric characters, punctuation, unnecessary spaces, and stop words (i.e., those words that carry little semantic meaning such as articles). Moreover, all bodies of text were split into lists of words or tokens. At this point, all words were lemmatized. Lemmatizing is the process of converting words into their root word while preserving their original meaning. Lemmatization was chosen over stemming (i.e., a more aggressive method for reducing words to their roots) because of its ability to preserve the original semantic and morphological meaning although at a higher computational cost. Lemmatized words will prevent words with the same meaning from generating several topics and thus weakening their true importance. Once all abstracts have been processed, the Count-Vectorizer class available in the Sci-Kit learn library was used to extract the occurring frequency of each word within each cluster. The array returned by the fit_tranformed method of this class was then normalized using the l1 norm to account for the differences in the size of the different clusters. Finally, this data was transformed into a data frame where each row is a cluster, and each column is a word. The values in this data frame correspond to the normalized counts of occurrences of each word within each cluster. To calculate these values, all the abstracts belonging to a given cluster were joined together and individually processed. The result is a sparse matrix. 
 
 Table 1 – Sparse matrix with normalized counts of word occurrences.
 
+![Picture3](https://user-images.githubusercontent.com/83890387/226979474-b7c939f8-a84f-4ab2-973c-3729a7b31bad.jpg)
+
 Next, the importance of each word within each cluster was assessed relative to all other clusters. To do so, the TF-IDF score for each word was calculated. The clusters were considered as if they were a single body of text. Therefore, the data frame constructed contains clusters as rows, words as columns, and normalized values that reflect the importance of each word contained in a given cluster relative to all other clusters. 
 
 Table 2 – Sparse matrix with normalized TD-IDF scores
+
+![Picture2](https://user-images.githubusercontent.com/83890387/226979516-36c1ef94-05fb-44ae-b593-b3c704ab7c1c.jpg)
 
 Finally, to assess the overall importance of a topic, the importance of a word within a cluster (i.e., the normalized counts returned by the Count-Vectorizer class) was transformed by applying a weight to it. In this case, the weight corresponds to the TF-IDF score of that same word within the cluster and relative to all other clusters. For this dataset, the best results for this transformation came from simply multiplying these two values. However, it is worth mentioning that other transformations could be explored. 
 
@@ -111,6 +121,8 @@ Finally, to assess the overall importance of a topic, the importance of a word w
 There is certainly room for improvement by testing different hyperparameters, data structures, and transformations. Moreover, if one would like to provide more context to the topics, using n-gram vectorizing algorithms could help understand the context of the topics. N-grams algorithms consider n number of words before and after each given word and return the frequency of occurrences of those given phrases. Nonetheless, this method has yielded a very good understanding of the governing topics. The following table illustrates the topics extracted. Some topics have been color-coded to illustrate a possible relationship. 
 
 Table 3 – Extracted Topics
+
+![Screenshot 2023-03-22 093950](https://user-images.githubusercontent.com/83890387/226978677-a3aa8197-9348-43e4-9698-e2664d80b5f0.jpg)
 
 To conclude, the topics generated seem to be very relevant in modern times. For example, topics such as artificial intelligence, tensors, code, and blockchain are surely areas of great public interest. Some words were manually removed from the final top 100 list because they are generic words (e.g., dialogue, opinion, game, group), that without the proper context, little inference can be extracted from them. Topic modeling is a complex task with many possible implementations. Nonetheless, the topics extracted here are certainly a very relevant and powerful insight 
 
