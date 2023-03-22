@@ -1,0 +1,310 @@
+cs.AI (Artificial Intelligence)
+This category covers all areas of AI except Vision, Robotics, Machine Learning, Multiagent Systems, and Computation and Language (Natural Language Processing), which have separate subject areas. In particular, includes Expert Systems, Theorem Proving (although this may overlap with Logic in Computer Science), Knowledge Representation, Planning, and Uncertainty in AI. 
+cs.AR (Hardware Architecture)
+This category covers systems organization and hardware architecture  
+cs.CC (Computational Complexity)
+This category covers models of computation, complexity classes, structural complexity, complexity tradeoffs, upper and lower bounds. Roughly includes material in computation by abstract devices, tradeoffs among complexity measures, and formal languages, although some material in formal languages may be more appropriate for Logic in Computer Science. 
+cs.CE (Computational Engineering, Finance, and Science)
+This category covers applications of computer science to the mathematical modeling of complex systems in the fields of science, engineering, and finance. Papers here are interdisciplinary and applications-oriented, focusing on techniques and tools that enable challenging computational simulations to be performed, for which the use of supercomputers or distributed computing platforms is often required.
+cs.CG (Computational Geometry)
+Description coming soon
+cs.CL (Computation and Language)
+This category covers natural language processing.
+cs.CR (Cryptography and Security)
+This category covers all areas of cryptography and security including authentication, public key cryptosytems, proof-carrying code, etc.
+cs.CV (Computer Vision and Pattern Recognition)
+This category covers image processing, computer vision, pattern recognition, and scene understanding.
+cs.CY (Computers and Society)
+This category covers impact of computers on society, computer ethics, information technology and public policy, legal aspects of computing, computers and education.
+cs.DB (Databases)
+This category covers database management, datamining, and data processing. 
+cs.DC (Distributed, Parallel, and Cluster Computing)
+This category covers fault-tolerance, distributed algorithms, stabilility, parallel computation, and cluster computing.
+cs.DL (Digital Libraries)
+This category covers all aspects of the digital library design and document and text creation. Note that there will be some overlap with Information Retrieval (which is a separate subject area).
+cs.DM (Discrete Mathematics)
+This category covers combinatorics, graph theory, applications of probability. 
+cs.DS (Data Structures and Algorithms)
+This category covers data structures and analysis of algorithms.
+cs.ET (Emerging Technologies)
+This category covers approaches to information processing (computing, communication, sensing) and bio-chemical analysis based on alternatives to silicon CMOS-based technologies, such as nanoscale electronic, photonic, spin-based, superconducting, mechanical, bio-chemical and quantum technologies (this list is not exclusive). Topics of interest include (1) building blocks for emerging technologies, their scalability and adoption in larger systems, including integration with traditional technologies, (2) modeling, design and optimization of novel devices and systems, (3) models of computation, algorithm design and programming for emerging technologies.
+cs.FL (Formal Languages and Automata Theory)
+This category covers automata theory, formal language theory, grammars, and combinatorics on words.
+cs.GL (General Literature)
+This category covers introductory material, survey material, predictions of future trends, biographies, and miscellaneous computer-science related material. 
+cs.GR (Graphics)
+This category covers all aspects of computer graphics.
+cs.GT (Computer Science and Game Theory)
+This category covers all theoretical and applied aspects at the intersection of computer science and game theory, including work in mechanism design, learning in games (which may overlap with Learning), foundations of agent modeling in games (which may overlap with Multiagent systems), coordination, specification and formal methods for non-cooperative computational environments. The area also deals with applications of game theory to areas such as electronic commerce.
+cs.HC (Human-Computer Interaction)
+This category covers human factors, user interfaces, and collaborative computing.
+cs.IR (Information Retrieval)
+This category covers indexing, dictionaries, retrieval, content and analysis. 
+cs.IT (Information Theory)
+This category covers theoretical and experimental aspects of information theory and coding.
+cs.LG (Machine Learning)
+This category covers papers on all aspects of machine learning research (supervised, unsupervised, reinforcement learning, bandit problems, and so on) including also robustness, explanation, fairness, and methodology. This category is also an appropriate primary category for applications of machine learning methods.
+cs.LO (Logic in Computer Science)
+This category covers all aspects of logic in computer science, including finite model theory, logics of programs, modal logic, and program verification. Programming language semantics should have Programming Languages as the primary subject area.
+cs.MA (Multiagent Systems)
+This category covers multiagent systems, distributed artificial intelligence, intelligent agents, coordinated interactions. and practical applications.
+cs.MM (Multimedia)
+Description coming soon
+cs.MS (Mathematical Software)
+Description coming soon
+cs.NA (Numerical Analysis)
+This category covers numerical algorithms for problems in analysis and algebra, scientific computation
+cs.NE (Neural and Evolutionary Computing)
+This category covers neural networks, connectionism, genetic algorithms, artificial life, adaptive behavior. Roughly includes some material in ACM Subject Class C.1.3, I.2.6, I.5.
+cs.NI (Networking and Internet Architecture)
+This category covers all aspects of computer communication networks, including network architecture and design, network protocols, and internetwork standards (like TCP/IP). Also includes topics, such as web caching, that are directly relevant to Internet architecture and performance. Roughly includes all of ACM Subject Class C.2 except C.2.4, which is more likely to have Distributed, Parallel, and Cluster Computing as the primary subject area.
+cs.OH (Other Computer Science)
+Description coming soon
+cs.OS (Operating Systems)
+Description coming soon
+cs.PF (Performance)
+Covers performance measurement and evaluation, queueing, and simulation. Roughly includes material in ACM Subject Classes D.4.8 and K.6.2.
+cs.PL (Programming Languages)
+This category covers programming language semantics, language features, programming approaches (such as object-oriented programming, functional programming, logic programming). Also includes material on compilers oriented towards programming languages; other material on compilers may be more appropriate in Architecture (AR).
+cs.RO (Robotics)
+Description coming soon
+cs.SC (Symbolic Computation)
+Description coming soon
+cs.SD (Sound)
+This category covers all aspects of computing with sound, and sound as an information channel. Includes models of sound, analysis and synthesis, audio user interfaces, sonification of data, computer music, and sound signal processing.
+cs.SE (Software Engineering)
+This category covers design tools, software metrics, testing and debugging, programming environments, etc. 
+cs.SI (Social and Information Networks)
+This category covers the design, analysis, and modeling of social and information networks, including their applications for on-line information access, communication, and interaction, and their roles as datasets in the exploration of questions in these and other domains, including connections to the social and biological sciences. 
+cs.SY (Systems and Control)
+This category covers theoretical and experimental research covering all facets of automatic control systems. The section is focused on methods of control system analysis and design using tools of modeling, simulation and optimization. Specific areas of research include nonlinear, distributed, adaptive, stochastic and robust control in addition to hybrid and discrete event systems. Application areas include automotive and aerospace control systems, network control, biological systems, multiagent and cooperative control, robotics, reinforcement learning, sensor networks, control of cyber-physical and energy-related systems, and control of computing systems.
+econ.EM (Econometrics)
+This category covers econometric Theory, Micro-Econometrics, Macro-Econometrics, Empirical Content of Economic Relations discovered via New Methods, Methodological Aspects of the Application of Statistical Inference to Economic Data.
+econ.GN (General Economics)
+This category covers general methodological, applied, and empirical contributions to economics.
+econ.TH (Theoretical Economics)
+This category includes theoretical contributions to Contract Theory, Decision Theory, Game Theory, General Equilibrium, Growth, Learning and Evolution, Macroeconomics, Market and Mechanism Design, and Social Choice.
+eess.AS (Audio and Speech Processing)
+This category includes theory and methods for processing signals representing audio, speech, and language, and their applications. This includes analysis, synthesis, enhancement, transformation, classification and interpretation of such signals as well as the design, development, and evaluation of associated signal processing systems. Machine learning and pattern analysis applied to any of the above areas is also welcome. Specific topics of interest include: auditory modeling and hearing aids; acoustic beamforming and source localization; classification of acoustic scenes; speaker separation; active noise control and echo cancellation; enhancement; de-reverberation; bioacoustics; music signals analysis, synthesis and modification; music information retrieval; audio for multimedia and joint audio-video processing; spoken and written language modeling, segmentation, tagging, parsing, understanding, and translation; text mining; speech production, perception, and psychoacoustics; speech analysis, synthesis, and perceptual modeling and coding; robust speech recognition; speaker recognition and characterization; deep learning, online learning, and graphical models applied to speech, audio, and language signals; and implementation aspects ranging from system architecture to fast algorithms.
+eess.IV (Image and Video Processing)
+This category includes theory, algorithms, and architectures for the formation, capture, processing, communication, analysis, and display of images, video, and multidimensional signals in a wide variety of applications. Topics of interest include: mathematical, statistical, and perceptual image and video modeling and representation; linear and nonlinear filtering, de-blurring, enhancement, restoration, and reconstruction from degraded, low-resolution or tomographic data; lossless and lossy compression and coding; segmentation, alignment, and recognition; image rendering, visualization, and printing; computational imaging, including ultrasound, tomographic and magnetic resonance imaging; and image and video analysis, synthesis, storage, search and retrieval.
+eess.SP (Signal Processing)
+This category includes theory, algorithms, performance analysis and applications of signal and data analysis, including physical modeling, processing, detection and parameter estimation, learning, mining, retrieval, and information extraction. The term "signal" includes speech, audio, sonar, radar, geophysical, physiological, (bio-) medical, image, video, and multimodal natural and man-made signals, including communication signals and data. Topics of interest include: statistical signal processing, spectral estimation and system identification; filter design, adaptive filtering / stochastic learning; (compressive) sampling, sensing, and transform-domain methods including fast algorithms; signal processing for machine learning and machine learning for signal processing applications; in-network and graph signal processing; convex and nonconvex optimization methods for signal processing applications; radar, sonar, and sensor array beamforming and direction finding; communications signal processing; low power, multi-core and system-on-chip signal processing; sensing, communication, analysis and optimization for cyber-physical systems such as power grids and the Internet of Things.
+eess.SY (Systems and Control)
+This category includes theoretical and experimental research covering all facets of automatic control systems. The section is focused on methods of control system analysis and design using tools of modeling, simulation and optimization. Specific areas of research include nonlinear, distributed, adaptive, stochastic and robust control in addition to hybrid and discrete event systems. Application areas include automotive and aerospace control systems, network control, biological systems, multiagent and cooperative control, robotics, reinforcement learning, sensor networks, control of cyber-physical and energy-related systems, and control of computing systems.
+math.AC (Commutative Algebra)
+This category includes commutative rings, modules, ideals, homological algebra, computational aspects, invariant theory, connections to algebraic geometry and combinatorics
+math.AG (Algebraic Geometry)
+This category includes algebraic varieties, stacks, sheaves, schemes, moduli spaces, complex geometry, quantum cohomology
+math.AP (Analysis of PDEs)
+This category includes existence and uniqueness, boundary conditions, linear and non-linear operators, stability, soliton theory, integrable PDE's, conservation laws, qualitative dynamics
+math.AT (Algebraic Topology)
+This category includes homotopy theory, homological algebra, algebraic treatments of manifolds
+math.CA (Classical Analysis and ODEs)
+This category includes special functions, orthogonal polynomials, harmonic analysis, ODE's, differential relations, calculus of variations, approximations, expansions, asymptotics
+math.CO (Combinatorics)
+This category includes discrete mathematics, graph theory, enumeration, combinatorial optimization, Ramsey theory, combinatorial game theory
+math.CT (Category Theory)
+This category includes enriched categories, topoi, abelian categories, monoidal categories, homological algebra
+math.CV (Complex Variables)
+This category includes holomorphic functions, automorphic group actions and forms, pseudoconvexity, complex geometry, analytic spaces, analytic sheaves
+math.DG (Differential Geometry)
+This category includes complex, contact, Riemannian, pseudo-Riemannian and Finsler geometry, relativity, gauge theory, global analysis
+math.DS (Dynamical Systems)
+This category includes dynamics of differential equations and flows, mechanics, classical few-body problems, iterations, complex dynamics, delayed differential equations
+math.FA (Functional Analysis)
+This category includes banach spaces, function spaces, real functions, integral transforms, theory of distributions, measure theory
+math.GM (General Mathematics)
+This category includes mathematical material of general interest, topics not covered elsewhere
+math.GN (General Topology)
+This category includes continuum theory, point-set topology, spaces with algebraic structure, foundations, dimension theory, local and global properties
+math.GR (Group Theory)
+This category includes finite groups, topological groups, representation theory, cohomology, classification and structure
+math.GT (Geometric Topology)
+This category includes manifolds, orbifolds, polyhedra, cell complexes, foliations, geometric structures
+math.HO (History and Overview)
+This category includes biographies, philosophy of mathematics, mathematics education, recreational mathematics, communication of mathematics, ethics in mathematics
+math.IT (Information Theory)
+This category covers theoretical and experimental aspects of information theory and coding.
+math.KT (K-Theory and Homology)
+This category includes algebraic and topological K-theory, relations with topology, commutative algebra, and operator algebras
+math.LO (Logic)
+This category includes logic, set theory, point-set topology, formal mathematics
+math.MG (Metric Geometry)
+This category includes euclidean, hyperbolic, discrete, convex, coarse geometry, comparisons in Riemannian geometry, symmetric spaces
+math.MP (Mathematical Physics)
+This category focus on areas of research that illustrate the application of mathematics to problems in physics, develop mathematical methods for such applications, or provide mathematically rigorous formulations of existing physical theories. Submissions to math-ph should be of interest to both physically oriented mathematicians and mathematically oriented physicists; submissions which are primarily of interest to theoretical physicists or to mathematicians should probably be directed to the respective physics/math categories
+math.NA (Numerical Analysis)
+This category includes numerical algorithms for problems in analysis and algebra, scientific computation
+math.NT (Number Theory)
+This category includes prime numbers, diophantine equations, analytic number theory, algebraic number theory, arithmetic geometry, Galois theory
+math.OA (Operator Algebras)
+This category includes algebras of operators on Hilbert space, C^*-algebras, von Neumann algebras, non-commutative geometry
+math.OC (Optimization and Control)
+This category includes operations research, linear programming, control theory, systems theory, optimal control, game theory
+math.PR (Probability)
+This category includes theory and applications of probability and stochastic processes: e.g. central limit theorems, large deviations, stochastic differential equations, models from statistical mechanics, queuing theory
+math.QA (Quantum Algebra)
+This category includes quantum groups, skein theories, operadic and diagrammatic algebra, quantum field theory
+math.RA (Rings and Algebras)
+This category includes non-commutative rings and algebras, non-associative algebras, universal algebra and lattice theory, linear algebra, semigroups
+math.RT (Representation Theory)
+This category includes linear representations of algebras and groups, Lie theory, associative algebras, multilinear algebra
+math.SG (Symplectic Geometry)
+This category includes hamiltonian systems, symplectic flows, classical integrable systems
+math.SP (Spectral Theory)
+This category includes schrodinger operators, operators on manifolds, general differential operators, numerical studies, integral operators, discrete models, resonances, non-self-adjoint operators, random operators/matrices
+math.ST (Statistics Theory)
+This category includes applied, computational and theoretical statistics: e.g. statistical inference, regression, time series, multivariate analysis, data analysis, Markov chain Monte Carlo, design of experiments, case studies
+astro-ph.CO (Cosmology and Nongalactic Astrophysics)
+This category includes phenomenology of early universe, cosmic microwave background, cosmological parameters, primordial element abundances, extragalactic distance scale, large-scale structure of the universe. Groups, superclusters, voids, intergalactic medium. Particle astrophysics: dark energy, dark matter, baryogenesis, leptogenesis, inflationary models, reheating, monopoles, WIMPs, cosmic strings, primordial black holes, cosmological gravitational radiation
+astro-ph.EP (Earth and Planetary Astrophysics)
+This category includes interplanetary medium, planetary physics, planetary astrobiology, extrasolar planets, comets, asteroids, meteorites. Structure and formation of the solar system
+astro-ph.GA (Astrophysics of Galaxies)
+This category includes phenomena pertaining to galaxies or the Milky Way. Star clusters, HII regions and planetary nebulae, the interstellar medium, atomic and molecular clouds, dust. Stellar populations. Galactic structure, formation, dynamics. Galactic nuclei, bulges, disks, halo. Active Galactic Nuclei, supermassive black holes, quasars. Gravitational lens systems. The Milky Way and its contents
+astro-ph.HE (High Energy Astrophysical Phenomena)
+This category includes cosmic ray production, acceleration, propagation, detection. Gamma ray astronomy and bursts, X-rays, charged particles, supernovae and other explosive phenomena, stellar remnants and accretion systems, jets, microquasars, neutron stars, pulsars, black holes
+astro-ph.IM (Instrumentation and Methods for Astrophysics)
+This category includes detector and telescope design, experiment proposals. Laboratory Astrophysics. Methods for data analysis, statistical methods. Software, database design
+astro-ph.SR (Solar and Stellar Astrophysics)
+This category includes white dwarfs, brown dwarfs, cataclysmic variables. Star formation and protostellar systems, stellar astrobiology, binary and multiple systems of stars, stellar evolution and structure, coronas. Central stars of planetary nebulae. Helioseismology, solar neutrinos, production and detection of gravitational radiation from stellar systems
+cond-mat.dis-nn (Disordered Systems and Neural Networks)
+This category includes glasses and spin glasses; properties of random, aperiodic and quasiperiodic systems; transport in disordered media; localization; phenomena mediated by defects and disorder; neural networks
+cond-mat.mes-hall (Mesoscale and Nanoscale Physics)
+This category includes semiconducting nanostructures: quantum dots, wires, and wells. Single electronics, spintronics, 2d electron gases, quantum Hall effect, nanotubes, graphene, plasmonic nanostructures
+cond-mat.mtrl-sci (Materials Science)
+This category includes techniques, synthesis, characterization, structure. Structural phase transitions, mechanical properties, phonons. Defects, adsorbates, interfaces
+cond-mat.other (Other Condensed Matter)
+This category includes work in condensed matter that does not fit into the other cond-mat classifications
+cond-mat.quant-gas (Quantum Gases)
+This category includes ultracold atomic and molecular gases, Bose-Einstein condensation, Feshbach resonances, spinor condensates, optical lattices, quantum simulation with cold atoms and molecules, macroscopic interference phenomena
+cond-mat.soft (Soft Condensed Matter)
+This category includes membranes, polymers, liquid crystals, glasses, colloids, granular matter
+cond-mat.stat-mech (Statistical Mechanics)
+This category includes phase transitions, thermodynamics, field theory, non-equilibrium phenomena, renormalization group and scaling, integrable models, turbulence
+cond-mat.str-el (Strongly Correlated Electrons)
+This category includes auantum magnetism, non-Fermi liquids, spin liquids, quantum criticality, charge density waves, metal-insulator transitions
+cond-mat.supr-con (Superconductivity)
+This category includes superconductivity: theory, models, experiment. Superflow in helium
+gr-qc (General Relativity and Quantum Cosmology)
+This category includes general Relativity and Quantum Cosmology Areas of gravitational physics, including experiments and observations related to the detection and interpretation of gravitational waves, experimental tests of gravitational theories, computational general relativity, relativistic astrophysics, solutions to Einstein's equations and their properties, alternative theories of gravity, classical and quantum cosmology, and quantum gravity.
+hep-ex (High Energy Physics - Experiment)
+Description coming soon
+hep-lat (High Energy Physics - Lattice)
+This category includes lattice field theory. Phenomenology from lattice field theory. Algorithms for lattice field theory. Hardware for lattice field theory.
+hep-ph (High Energy Physics - Phenomenology)
+This category includes theoretical particle physics and its interrelation with experiment. Prediction of particle physics observables: models, effective field theories, calculation techniques. Particle physics: analysis of theory through experimental results.
+hep-th (High Energy Physics - Theory)
+This category includes formal aspects of quantum field theory. String theory, supersymmetry and supergravity.
+math-ph (Mathematical Physics)
+This category focuses on areas of research that illustrate the application of mathematics to problems in physics, develop mathematical methods for such applications, or provide mathematically rigorous formulations of existing physical theories. Submissions to math-ph should be of interest to both physically oriented mathematicians and mathematically oriented physicists; submissions which are primarily of interest to theoretical physicists or to mathematicians should probably be directed to the respective physics/math categories
+nlin.AO (Adaptation and Self-Organizing Systems)
+This category includes adaptation, self-organizing systems, statistical physics, fluctuating systems, stochastic processes, interacting particle systems, machine learning
+nlin.CD (Chaotic Dynamics)
+This category includes dynamical systems, chaos, quantum chaos, topological dynamics, cycle expansions, turbulence, propagation
+nlin.CG (Cellular Automata and Lattice Gases)
+This category includes computational methods, time series analysis, signal processing, wavelets, lattice gases
+nlin.PS (Pattern Formation and Solitons)
+This category includes pattern formation, coherent structures, solitons
+nlin.SI (Exactly Solvable and Integrable Systems)
+This category includes exactly solvable systems, integrable PDEs, integrable ODEs, Painleve analysis, integrable discrete maps, solvable lattice models, integrable quantum systems
+nucl-ex (Nuclear Experiment)
+This category includes nuclear Experiment Results from experimental nuclear physics including the areas of fundamental interactions, measurements at low- and medium-energy, as well as relativistic heavy-ion collisions. Does not include: detectors and instrumentation nor analysis methods to conduct experiments; descriptions of experimental programs (present or future); comments on published results
+nucl-th (Nuclear Theory)
+This category includes nuclear Theory Theory of nuclear structure covering wide area from models of hadron structure to neutron stars. Nuclear equation of states at different external conditions. Theory of nuclear reactions including heavy-ion reactions at low and high energies. It does not include problems of data analysis, physics of nuclear reactors, problems of safety, reactor construction
+physics.acc-ph (Accelerator Physics)
+This category includes accelerator theory and simulation. Accelerator technology. Accelerator experiments. Beam Physics. Accelerator design and optimization. Advanced accelerator concepts. Radiation sources including synchrotron light sources and free electron lasers. Applications of accelerators.
+physics.ao-ph (Atmospheric and Oceanic Physics)
+This category includes atmospheric and oceanic physics and physical chemistry, biogeophysics, and climate science
+physics.app-ph (Applied Physics)
+This category includes applications of physics to new technology, including electronic devices, optics, photonics, microwaves, spintronics, advanced materials, metamaterials, nanotechnology, and energy sciences.
+physics.atm-clus (Atomic and Molecular Clusters)
+This category includes atomic and molecular clusters, nanoparticles: geometric, electronic, optical, chemical, magnetic properties, shell structure, phase transitions, optical spectroscopy, mass spectrometry, photoelectron spectroscopy, ionization potential, electron affinity, interaction with intense light pulses, electron diffraction, light scattering, ab initio calculations, DFT theory, fragmentation, Coulomb explosion, hydrodynamic expansion.
+physics.atom-ph (Atomic Physics)
+This category includes atomic and molecular structure, spectra, collisions, and data. Atoms and molecules in external fields. Molecular dynamics and coherent and optical control. Cold atoms and molecules. Cold collisions. Optical lattices.
+physics.bio-ph (Biological Physics)
+This category includes molecular biophysics, cellular biophysics, neurological biophysics, membrane biophysics, single-molecule biophysics, ecological biophysics, quantum phenomena in biological systems (quantum biophysics), theoretical biophysics, molecular dynamics/modeling and simulation, game theory, biomechanics, bioinformatics, microorganisms, virology, evolution, biophysical methods.
+physics.chem-ph (Chemical Physics)
+This category includes experimental, computational, and theoretical physics of atoms, molecules, and clusters - Classical and quantum description of states, processes, and dynamics; spectroscopy, electronic structure, conformations, reactions, interactions, and phases. Chemical thermodynamics. Disperse systems. High pressure chemistry. Solid state chemistry. Surface and interface chemistry.
+physics.class-ph (Classical Physics)
+This category includes newtonian and relativistic dynamics; many particle systems; planetary motions; chaos in classical dynamics. Maxwell's equations and dynamics of charged systems and electromagnetic forces in materials. Vibrating systems such as membranes and cantilevers; optomechanics. Classical waves, including acoustics and elasticity; physics of music and musical instruments. Classical thermodynamics and heat flow problems.
+physics.comp-ph (Computational Physics)
+This category includes all aspects of computational science applied to physics.
+physics.data-an (Data Analysis, Statistics and Probability)
+This category includes methods, software and hardware for physics data analysis: data processing and storage; measurement methodology; statistical and mathematical aspects such as parametrization and uncertainties.
+physics.ed-ph (Physics Education)
+This category includes results of a research study, laboratory experience, assessment or classroom practice that represents a way to improve teaching and learning in physics. Also, report on misconceptions of students, textbook errors, and other similar information relative to promoting physics understanding.
+physics.flu-dyn (Fluid Dynamics)
+This category includes turbulence, instabilities, incompressible/compressible flows, reacting flows. Aero/hydrodynamics, fluid-structure interactions, acoustics. Biological fluid dynamics, micro/nanofluidics, interfacial phenomena. Complex fluids, suspensions and granular flows, porous media flows. Geophysical flows, thermoconvective and stratified flows. Mathematical and computational methods for fluid dynamics, fluid flow models, experimental techniques.
+physics.gen-ph (General Physics)
+Description coming soon
+physics.geo-ph (Geophysics)
+This category includes atmospheric physics. Biogeosciences. Computational geophysics. Geographic location. Geoinformatics. Geophysical techniques. Hydrospheric geophysics. Magnetospheric physics. Mathematical geophysics. Planetology. Solar system. Solid earth geophysics. Space plasma physics. Mineral physics. High pressure physics.
+physics.hist-ph (History and Philosophy of Physics)
+This category includes history and philosophy of all branches of physics, astrophysics, and cosmology, including appreciations of physicists.
+physics.ins-det (Instrumentation and Detectors)
+This category includes instrumentation and detectors for research in natural science, including optical, molecular, atomic, nuclear and particle physics instrumentation and the associated electronics, services, infrastructure and control equipment.
+physics.med-ph (Medical Physics)
+This category includes radiation therapy. Radiation dosimetry. Biomedical imaging modelling. Reconstruction, processing, and analysis. Biomedical system modelling and analysis. Health physics. New imaging or therapy modalities.
+physics.optics (Optics)
+This category includes adaptive optics. Astronomical optics. Atmospheric optics. Biomedical optics. Cardinal points. Collimation. Doppler effect. Fiber optics. Fourier optics. Geometrical optics (Gradient index optics. Holography. Infrared optics. Integrated optics. Laser applications. Laser optical systems. Lasers. Light amplification. Light diffraction. Luminescence. Microoptics. Nano optics. Ocean optics. Optical computing. Optical devices. Optical imaging. Optical materials. Optical metrology. Optical microscopy. Optical properties. Optical signal processing. Optical testing techniques. Optical wave propagation. Paraxial optics. Photoabsorption. Photoexcitations. Physical optics. Physiological optics. Quantum optics. Segmented optics. Spectra. Statistical optics. Surface optics. Ultrafast optics. Wave optics. X-ray optics.
+physics.plasm-ph (Plasma Physics)
+This category includes fundamental plasma physics. Magnetically Confined Plasmas (includes magnetic fusion energy research). High Energy Density Plasmas (inertial confinement plasmas, laser-plasma interactions). Ionospheric, Heliophysical, and Astrophysical plasmas (includes sun and solar system plasmas). Lasers, Accelerators, and Radiation Generation. Low temperature plasmas and plasma applications (include dusty plasmas, semiconductor etching, plasma-based nanotechnology, medical applications). Plasma Diagnostics, Engineering and Enabling Technologies (includes fusion reactor design, heating systems, diagnostics, experimental techniques)
+physics.pop-ph (Popular Physics)
+Description coming soon
+physics.soc-ph (Physics and Society)
+This category includes structure, dynamics and collective behavior of societies and groups (human or otherwise). Quantitative analysis of social networks and other complex networks. Physics and engineering of infrastructure and systems of broad societal impact (e.g., energy grids, transportation networks).
+physics.space-ph (Space Physics)
+This category includes space plasma physics. Heliophysics. Space weather. Planetary magnetospheres, ionospheres and magnetotail. Auroras. Interplanetary space. Cosmic rays. Synchrotron radiation. Radio astronomy.
+quant-ph (Quantum Physics)
+Description coming soon
+q-bio.BM (Biomolecules)
+This category includes DNA, RNA, proteins, lipids, etc.; molecular structures and folding kinetics; molecular interactions; single-molecule manipulation.
+q-bio.CB (Cell Behavior)
+This category includes cell-cell signaling and interaction; morphogenesis and development; apoptosis; bacterial conjugation; viral-host interaction; immunology
+q-bio.GN (Genomics)
+This category includes DNA sequencing and assembly; gene and motif finding; RNA editing and alternative splicing; genomic structure and processes (replication, transcription, methylation, etc); mutational processes.
+q-bio.MN (Molecular Networks)
+This category includes gene regulation, signal transduction, proteomics, metabolomics, gene and enzymatic networks
+q-bio.NC (Neurons and Cognition)
+This category includes synapse, cortex, neuronal dynamics, neural network, sensorimotor control, behavior, attention
+q-bio.OT (Other Quantitative Biology)
+This category includes quantitative biology that does not fit into the other q-bio classifications
+q-bio.PE (Populations and Evolution)
+This category includes population dynamics, spatio-temporal and epidemiological models, dynamic speciation, co-evolution, biodiversity, foodwebs, aging; molecular evolution and phylogeny; directed evolution; origin of life
+q-bio.QM (Quantitative Methods)
+This category includes all experimental, numerical, statistical and mathematical contributions of value to biology
+q-bio.SC (Subcellular Processes)
+This category includes assembly and control of subcellular structures (channels, organelles, cytoskeletons, capsules, etc.); molecular motors, transport, subcellular localization; mitosis and meiosis
+q-bio.TO (Tissues and Organs)
+This category includes blood flow in vessels, biomechanics of bones, electrical waves, endocrine system, tumor growth
+q-fin.CP (Computational Finance)
+This category includes computational methods, including Monte Carlo, PDE, lattice and other numerical methods with applications to financial modeling
+q-fin.EC (Economics)
+This category includes economics, including micro and macro economics, international economics, theory of the firm, labor economics, and other economic topics outside finance
+q-fin.GN (General Finance)
+This category includes development of general quantitative methodologies with applications in finance
+q-fin.MF (Mathematical Finance)
+This category includes mathematical and analytical methods of finance, including stochastic, probabilistic and functional analysis, algebraic, geometric and other methods
+q-fin.PM (Portfolio Management)
+This category includes security selection and optimization, capital allocation, investment strategies and performance measurement
+q-fin.PR (Pricing of Securities)
+This category includes valuation and hedging of financial securities, their derivatives, and structured products
+q-fin.RM (Risk Management)
+This category includes measurement and management of financial risks in trading, banking, insurance, corporate and other applications
+q-fin.ST (Statistical Finance)
+This category includes statistical, econometric and econophysics analyses with applications to financial markets and economic data
+q-fin.TR (Trading and Market Microstructure)
+This category includes market microstructure, liquidity, exchange and auction design, automated trading, agent-based modeling and market-making.
+stat.AP (Applications)
+This category includes biology, Education, Epidemiology, Engineering, Environmental Sciences, Medical, Physical Sciences, Quality Control, Social Sciences.
+stat.CO (Computation)
+This category includes algorithms, simulation, visualization.
+stat.ME (Methodology)
+This category includes design, Surveys, Model Selection, Multiple Testing, Multivariate Methods, Signal and Image Processing, Time Series, Smoothing, Spatial Statistics, Survival Analysis, Nonparametric and Semiparametric Methods
+stat.ML (Machine Learning)
+This category covers machine learning papers (supervised, unsupervised, semi-supervised learning, graphical models, reinforcement learning, bandits, high dimensional inference, etc.) with a statistical or theoretical grounding
+stat.OT (Other Statistics)
+This category includes work in statistics that does not fit into the other stat classifications
+stat.TH (Statistics Theory)
+This category includes asymptotics, Bayesian Inference, Decision Theory, Estimation, Foundations, Inference, Testing.
