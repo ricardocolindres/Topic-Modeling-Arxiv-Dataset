@@ -1,5 +1,5 @@
 # Topic-Modeling-Arxiv-Dataset
-This is a new approach for topic modeling. Topics have been extracted from 600,000 articles sourced from the Arxiv Dataset
+This is a new approach for topic modeling. Topics have been extracted from over 600,000 articles sourced from the Arxiv Dataset
 
 Please download the notebook (analysis.ipynb) in this repository to follow along.
 
