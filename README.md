@@ -124,5 +124,5 @@ Table 3 – Extracted Topics
 
 ![Screenshot 2023-03-22 093950](https://user-images.githubusercontent.com/83890387/226978677-a3aa8197-9348-43e4-9698-e2664d80b5f0.jpg)
 
-To conclude, the topics generated seem to be very relevant in modern times. For example, topics such as artificial intelligence, tensors, code, and blockchain are surely areas of great public interest. Some words were manually removed from the final top 100 list because they are generic words (e.g., dialogue, opinion, game, group), that without the proper context, little inference can be extracted from them. Topic modeling is a complex task with many possible implementations. Nonetheless, the topics extracted here are certainly a very relevant and powerful insight 
+To conclude, the topics generated seem to be very relevant in modern times. For example, topics such as artificial intelligence, tensors, code, and blockchain are surely areas of great public interest. Some words were manually removed from the final top 100 list because they are generic words (e.g., dialogue, opinion, game, group), that without the proper context, little inference can be extracted from them. Topic modeling is a complex task with many possible implementations. Nonetheless, the topics extracted here are certainly very relevant and insightful 
 
